@@ -11,7 +11,7 @@
 <br>
 
 <div align="center">
-  Bizni ijtimoiy tarmoqlarda kuzatib boring: <br>
+  Webdasturlashga oid ko'proq yangiliklardan xabardor bo'lish uchun bizni kuzatib boring: <br>
   <a href="https://www.youtube.com/channel/UCeJ6Sc3SaKKArAurnCwlJBw">YouTube</a>
   <span> | </span>
   <a href="https://www.instagram.com/yakubovdeveloper">Instagram</a>
@@ -87,6 +87,34 @@ To'liq video qo'llanma bu yerda:
 </details>
 
 </details>
+
+## Installation
+
+```bash
+cp deploy/env.md deploy/.env
+
+python -m venv venv
+
+source venv/bin/activate
+
+pip install poetry
+
+poetry install
+```
+
+## Run tests
+
+```bash
+pytest
+```
+
+## Run server
+
+```bash
+python manage.py createsuperuser
+
+python manage.py runserver
+```
 
 ## Author
 [Sirojiddin Yakubov](https://t.me/Sirojiddin_Yakubov)
