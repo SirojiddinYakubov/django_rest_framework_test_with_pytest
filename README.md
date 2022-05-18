@@ -89,4 +89,4 @@ To'liq video qo'llanma bu yerda:
 </details>
 
 ## Author
-[Sirojiddin Yakubov](https://github.com/yakubov9791999)
+[Sirojiddin Yakubov](https://t.me/Sirojiddin_Yakubov)
