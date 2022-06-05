@@ -12,7 +12,6 @@ class BookAPIViewMixin(generics.GenericAPIView):
     permission_classes = [permissions.IsAuthenticated]
 
     def get_object(self):
-        print('inside get_object')
         obj = BookService.book_detail(id=self.kwargs.get('pk'))
         if not obj:
             raise exceptions.NotFound({"detail": "Объект не найден"})

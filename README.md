@@ -79,10 +79,15 @@ To'liq video qo'llanma bu yerda: https://www.youtube.com/watch?v=ceqjn96kjLw
 <br>
 
 <ul>
-    <li>test</li>
+    <li>Web so'rov va web javoblar haqida tushunchaga ega bo'lamiz</li>
+    <li>"Django viewslar qanday ishlaydi ?" - ushbu savolimizga javob topamiz</li>
+    <li>Status kodlar haqida ma'lumotga ega bo'lamiz va eng ko'p qo'llaniladigan status kodlarga to'liqroq to'xtalamiz</li>
+    <li>Web so'rov jo'natish uchun API Client yaratamiz</li>
+    <li>Postman orqali web so'rov va web javoblarni tekshirib ko'ramiz</li>
+    <li>Create, Read, Update, Delete, List API lar uchun yozilgan viewslarni pytest yordamida testdan o'tkazamiz</li>
 </ul>
 
-To'liq video qo'llanma bu yerda: 
+To'liq video qo'llanma bu yerda: https://www.youtube.com/watch?v=csky_VjUTGk
 
 </details>
 

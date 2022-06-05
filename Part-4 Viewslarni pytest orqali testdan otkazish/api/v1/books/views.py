@@ -1,6 +1,7 @@
 from rest_framework import generics
 
 from api.v1.books import mixins
+from api.v1.books.permissions import AuthorPermission
 
 
 class BookListAPIView(mixins.BookAPIViewMixin, generics.ListAPIView):
@@ -15,7 +16,7 @@ class BookCreateAPIView(mixins.BookAPIViewMixin, generics.CreateAPIView):
 
 class BookUpdateAPIView(mixins.BookAPIViewMixin, generics.UpdateAPIView):
     """ Редактировать книгу """
-    pass
+    permission_classes = [AuthorPermission]
 
 
 class BookDetailAPIView(mixins.BookAPIViewMixin, generics.RetrieveAPIView):
